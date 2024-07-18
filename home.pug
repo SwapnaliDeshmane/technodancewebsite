@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts 
+    script(src="../static/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+        
+block content 
+    
+    section#introSection
+        div Welcome to Techno Dance Academy 
+        div.small Eat Sleep and Dance Repeat
+    
+    section#missionSection 
+        h2 Our Missions 
+        div.card 
+          h3 Dance Perfection
+          div.card-box 
+            div.card-img
+              img(src="../static/img1.png", alt="")
+          
+            div#card-content
+              p This is best class in  our area.
+
+        div.card 
+          h3 Dance the way you like
+          div.card-box 
+            div.card-img
+              img(src="../static/img2.png", alt="")
+            
+            div#card-content
+              p This is best class in  our area.
+
+        div.card 
+          h3 Expert Teching
+          div.card-box 
+            div.card-img
+              img(src="../static/img3.png", alt="")
+
+            div#card-content
+              p This is best class in  our area.
+
+    section#sponsorSection 
+        h2 Our Sponsors 
+        div#sponsors
+          img(src="../static/apple.png", alt="" class="spImages")
+          img(src="../static/hp.png", alt="" class="spImages")
+          img(src="../static/microsoft.png", alt="" class="spImages")
+          img(src="../static/skype.png", alt="" class="spImages")
+    

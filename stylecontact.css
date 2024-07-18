@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 65px;
+    font-family: "Permanent Marker", cursive;
+}
+.myinput{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    margin-bottom:15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Permanent Marker", cursive;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 74.5vh;
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(177, 216, 189));
+
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.btn{
+    padding: 10px 16px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+    background-color: rgb(177, 216, 189);
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
